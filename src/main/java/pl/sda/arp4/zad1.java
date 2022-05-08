@@ -16,7 +16,7 @@ public class zad1 {
         }
 
         System.out.println("litery od 'A' do 'Z' ");
-        for (char i = 'A'; i <= 'Z' ; i++) {
+        for (char i = 'A'; i <= 'Z' ; i+=2) {
             System.out.println(i);
         }
 

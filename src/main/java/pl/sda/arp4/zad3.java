@@ -22,12 +22,22 @@ public class zad3 {
         System.out.println("Podaj licznę całkowitą dodatnią");
         int m = sc.nextInt();
 
-        int potega = 2;
+
         int result = 1;
         for (int i = 0; i <= m; i++) {
             result = i * i;
             if (result <= n) {
                 System.out.println(result);
+            }
+
+        }
+        System.out.println("Druga opcja Bez użycia metody Math");
+        System.out.println("Podaj licznę całkowitą dodatnią");
+        int k = sc.nextInt();
+
+        for(int wynik = 1; wynik < k; wynik *= 2){
+            if (wynik <= k) {
+                System.out.println(wynik);
             }
 
         }
